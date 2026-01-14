@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  /* fontfamily */
+  --font-manrope: "Manrope", sans-serif;
+
+  /* colors */
+  --color-light: hsl(193, 38%, 86%);
+  --color-primary: hsl(150, 100%, 66%);
+  --color-deep-blue: hsl(217, 19%, 38%);
+  --color-deeper-blue: hsl(217, 19%, 24%);
+  --color-deepest-blue: hsl(218, 23%, 16%);
+
+  /* font size */
+  --text-main: clamp(1.125rem, 0.895rem + 1.228vw, 2rem);
+}
